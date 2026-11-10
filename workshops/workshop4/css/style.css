@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box; /* padding telt mee in de breedte */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333333;
+    margin: 0;
+}
+
+#container {
+    width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#header { /* header: paarse balk met de naam van de webshop */
+    background-color: #97007e;
+    color: #ffffff;
+    height: 100px;
+    text-align: center;
+    font-size: 32px;
+    line-height: 100px;
+}
+
+.product {
+    border: 1px solid #cccccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.product img {
+    width: 200px;
+}
+
+#content {
+    background-color: #d88ccb;  
+    padding: 20px;
+}
+
+#footer { /* footer: paarse balk met copyright */
+    background-color: #97007e;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
