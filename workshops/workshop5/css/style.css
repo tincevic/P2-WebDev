@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box; /* padding telt mee in de breedte */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333333;
+    margin: 0;
+}
+
+.block {
+    background-color: #ffffff;
+    color: #333333;
+    width: 100px;
+    height: 100px;
+}
+
+.row {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+    background-color: #eeeeee;
+}
