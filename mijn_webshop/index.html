@@ -3,23 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>muziek shop</title>
+    <title>muzika.yu</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" type="image/x-icon" href="/../Assets/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="/../Assets/favicon.ico"><!--this favicon is temporary-->
 </head>
 <body>
     <div id="container">
         <div id="header">
-            <h1>muziek shop temp naam</h1>
-            <p><i>Your one-stop shop for music</i></p>
-            <p><i><small>...with original pressings from every label!</small></i></p>
+            <h1>muzika.yu</h1>
+            <p><i>Your one-stop shop for music from Yugoslavia</i></p>
+            <p><i><small>Free shipping on orders over &euro;50,&ndash;</small></i></p>
         </div> <!--end of header-->
-        <div id="content">hello there</div> <!--end of content-->
+        <div id="content">
+            <div class="row"><!--this row contains all the products-->
+                <div class="product"><!--this class is for each product. it's meant to look like a polaroid with the white part at the bottom and padding-->
+                    <img src="images/1999.jpg" alt="Cover of the album '1999' by Prince">
+                    <h3><a href="products/1999_vinyl.html" style="color:black">Prince - 1999 (Suzy Records vinyl)</a></h3><!--title links to indiv. detail page. link text is made black so it fits with the rest of the theme-->
+                    <p class="prijs">&euro; 29,99</p>
+                </div>
+
+                <div class="product">
+                    <img src="images/kosovka.jpg" alt="Cover of the album 'Kosovka devojka' by Bijelo Dugme">
+                    <h3><a href="products/kosovka_vinyl.html" style="color:black">Bijelo Dugme - Kosovka devojka (vinyl)</a></h3>
+                    <p class="prijs">&euro; 24,99</p>
+                </div>
+
+                <div class="product">
+                    <img src="images/whitealbum.jpg" alt="Cover of the White Album by The Beatles">
+                    <h3><a href="products/whitealbum_vinyl.html" style="color:black">The Beatles - The White Album (Jugoton vinyl)</a></h3>
+                    <p class="prijs">&euro; 159,99</p>
+                </div>
+            </div>
+        </div> <!--end of content-->
         <div id="footer">
-            &copy; 2026 T.M.
+            &copy; 2026 muzika.yu
             <small>All Rights Reserved!</small>
 
-            <small><small>Disclaimer: we are not affiliated with any record labels. All rights to the music and artwork belong to their respective owners.</small>
+            <small><small>Disclaimer: muzika.yu is not affiliated with any record labels. All rights to the music and artwork belong to their respective owners.</small>
         </div> <!--end of footer-->
     </div>
 </body>
