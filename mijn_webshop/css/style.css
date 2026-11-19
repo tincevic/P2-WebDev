@@ -2,12 +2,21 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: Montserrat, Arial, Helvetica, sans-serif;
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../../Assets/montserrat.ttf');
 }
 
-#header h1 {
-    margin: 0 0 7px 0;
+body {
+    font-family: 'Montserrat', sans-serif;
+    height: 100%;
+}
+
+.logo {
+    max-width: 500px; /* Adjust this value to make the logo bigger or smaller */
+    height: auto;
+    margin: 0 0 10px 0;
+    display: block;
 }
 
 #header p {
@@ -16,7 +25,6 @@ body {
 
 #container {
     width: 100%;
-    max-width: 1400px;
     margin: 0 auto;
     padding: 20px;
 }
@@ -30,7 +38,9 @@ body {
 }
 
 .product {
-    border: 1px solid #cccccc;
+    background-color: #ffffff;
+    color: #7c1599;
+    border: 1px solid #e0a1f1;
     padding: 10px;
     flex: 1 1 200px;
     max-width: 250px;
@@ -42,10 +52,39 @@ body {
     height: auto;
 }
 
+.product h3 {
+    text-align: center;
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.product-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.product-footer .prijs {
+    margin: 0;
+}
+
+.view-btn {
+    text-decoration: none;
+    background-color: #7c1599;
+    color: #ffffff;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 3px;
+}
+
+.view-btn:hover {
+    background-color: #444444;
+}
 
 #header {
-    background-color: #292929;
-    color: white;
+    background-color: white;
+    color: #7c1599;
     padding: 30px;
     display: flex;
     flex-direction: column;
@@ -54,13 +93,14 @@ body {
 }
 
 #content {
-    background-color: #ffffff;
-    padding: 20px;
+    background-color: #eecdf7;
+    padding: 30px;
+    border-radius: 8px;
 }
 
 #footer {
-    background-color: #292929;
-    color: white;
+    background-color: #ffffff;
+    color: #7c1599;
     padding: 30px;
     display: flex;
     flex-direction: column;
