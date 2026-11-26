@@ -1,29 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Wrecka Stow</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" type="image/x-icon" href="../Assets/favicon.ico"><!--this favicon is temporary-->
-</head>
-<body>
-    <div id="container">
-        <div id="header">
-            <a href="index.html">
-                <img src="../Assets/wreckastow.png" alt="The Wrecka Stow" class="logo">
-            </a>
-            <p><i>Your one-stop shop for music from Yugoslavia</i></p>
-            <p><i><small>Free shipping on orders over &euro;50,&ndash;</small></i></p>
-        </div> <!--end of header-->
-        <div id="content">
+<?php
+    $title = "The Wrecka Stow";
+    $dir = "";
+?>
+<?php include "includes/header.php"; ?>
             <div class="row"><!--this row contains all the products-->
                 <div class="product"><!--this class is for each product. it's meant to look like a polaroid with the white part at the bottom and padding-->
                     <img src="images/1999.jpg" alt="Cover of the album '1999' by Prince">
                     <h3>Prince - 1999 (Suzy Records vinyl)</h3><!--title links to indiv. detail page. link text is made black so it fits with the rest of the theme-->
                     <div class="product-footer">
                         <p class="prijs">&euro; 29,99</p>
-                        <a href="products/1999_vinyl.html" class="view-btn">View</a>
+                        <a href="products/1999_vinyl.php" class="view-btn">View</a>
                     </div>
                 </div>
 
@@ -32,7 +18,7 @@
                     <h3>Bijelo Dugme - Kosovka devojka (vinyl)</h3>
                     <div class="product-footer">
                         <p class="prijs">&euro; 24,99</p>
-                        <a href="products/kosovka_vinyl.html" class="view-btn">View</a>
+                        <a href="products/kosovka_vinyl.php" class="view-btn">View</a>
                     </div>
                 </div>
 
@@ -41,7 +27,7 @@
                     <h3>The Beatles - The White Album (Jugoton vinyl)</h3>
                     <div class="product-footer">
                         <p class="prijs">&euro; 69,99</p>
-                        <a href="products/whitealbum_vinyl.html" class="view-btn">View</a>
+                        <a href="products/whitealbum_vinyl.php" class="view-btn">View</a>
                     </div>
                 </div>
             </div>
@@ -51,7 +37,7 @@
                     <h3>Prince - 1999 (Suzy Records vinyl)</h3><!--title links to indiv. detail page. link text is made black so it fits with the rest of the theme-->
                     <div class="product-footer">
                         <p class="prijs">&euro; 29,99</p>
-                        <a href="products/1999_vinyl.html" class="view-btn">View</a>
+                        <a href="products/1999_vinyl.php" class="view-btn">View</a>
                     </div>
                 </div>
 
@@ -60,7 +46,7 @@
                     <h3>Bijelo Dugme - Kosovka devojka (vinyl)</h3>
                     <div class="product-footer">
                         <p class="prijs">&euro; 24,99</p>
-                        <a href="products/kosovka_vinyl.html" class="view-btn">View</a>
+                        <a href="products/kosovka_vinyl.php" class="view-btn">View</a>
                     </div>
                 </div>
 
@@ -69,20 +55,8 @@
                     <h3>The Beatles - The White Album (Jugoton vinyl)</h3>
                     <div class="product-footer">
                         <p class="prijs">&euro; 69,99</p>
-                        <a href="products/whitealbum_vinyl.html" class="view-btn">View</a>
+                        <a href="products/whitealbum_vinyl.php" class="view-btn">View</a>
                     </div>
                 </div>
             </div>
-        </div> <!--end of content-->
-        <div id="footer">
-            &copy; 2026 The Wrecka Stow
-            <small>All Rights Reserved!</small>
-
-            <small><small>Disclaimer: The Wrecka Stow is not affiliated with any record labels. All rights to the music and artwork belong to their respective owners.</small></small>
-            <small><small>Items ship from our warehouse in Croatia. Shipping times outside the European Union may vary.</small></small>
-            <br />
-            <small>E-mail: info@wreckastow.hr | Tel: +381 61 777-9311</small>
-        </div> <!--end of footer-->
-    </div>
-</body>
-</html>
+<?php include "includes/footer.php"; ?>
