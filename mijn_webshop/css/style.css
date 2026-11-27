@@ -120,6 +120,7 @@ body {
 }
 
 .detail-info h2 {
+    font-family: 'Montserrat-Prince', sans-serif;
     margin: 0 0 10px 0;
     font-size: 22px;
 }
