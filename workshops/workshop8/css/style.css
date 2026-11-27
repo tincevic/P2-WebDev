@@ -7,6 +7,11 @@
     src: url('../../../Assets/montserrat.ttf');
 }
 
+@font-face {
+    font-family: 'Montserrat-Prince';
+    src: url('../../../Assets/MontserratPrince.ttf');
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     height: 100%;
@@ -54,6 +59,7 @@ body {
 }
 
 .product h3 {
+    font-family: 'Montserrat-Prince', sans-serif;
     text-align: center;
     font-size: 14px;
     margin: 10px 0;
@@ -68,45 +74,6 @@ body {
 
 .product-footer .prijs {
     margin: 0;
-}
-
-.form {
-    max-width: 400px;
-}
-
-.field {
-    margin-bottom: 15px;
-}
-
-.field label {
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
-}
-
-.field input,
-.field select {
-    width: 100%;
-    padding: 8px;
-    border: 1px solid #e0a1f1;
-    border-radius: 4px;
-    font-size: 16px;
-}
-
-.button input {
-    border: none;
-    font-size: 16px;
-    cursor: pointer;
-}
-
-.check {
-    display: flex;
-    gap: 8px;
-    align-items: center;
-}
-
-.check input {
-    width: auto;
 }
 
 .center {
