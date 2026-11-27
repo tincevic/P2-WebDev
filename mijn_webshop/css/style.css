@@ -72,7 +72,7 @@ body {
     margin-top: 10px;
 }
 
-.product-footer .prijs {
+.product-footer .price {
     margin: 0;
 }
 
@@ -124,7 +124,7 @@ body {
     font-size: 22px;
 }
 
-.detail-info .prijs {
+.detail-info .price {
     font-size: 18px;
     font-weight: bold;
     margin: 0 0 20px 0;

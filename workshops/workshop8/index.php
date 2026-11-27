@@ -14,7 +14,7 @@
                         <img src="images/<?php echo $product['image']; ?>" alt="<?php echo $product['name']; ?>">
                         <h3><?php echo $product['name'] ?></h3>
                         <p class="prijs">&euro; <?php echo number_format($product['price'], 2, ',', '.'); ?></p>
-                        <a href="detail.php?id=<?php echo $product['id']; ?>" class="knop">Bekijk</a>
+                        <a href="detail.php?id=<?php echo $product['id']; ?>" class="view-btn">Bekijk</a>
                     </div>
                 <?php } ?>
             </div>
